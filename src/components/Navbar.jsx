@@ -20,13 +20,13 @@ const Navbar = () => {
             </span>
           </Link>
         </div>
-        <div className="navbar-center hidden lg:flex items-center gap-8">
+        <div className="navbar-center hidden lg:flex lg:items-center gap-8">
           {navLinksArr.map((link) => (
             <NavLink
               key={link.path}
               to={link.path}
               className={({ isActive }) =>
-                `text-[#000000e6] hover: font-medium leading-[152%] ${
+                `text-[#000000e6] hover:text-indigo-600 transition font-medium leading-[152%] ${
                   isActive
                     ? "border-b-2 border-purple-600 bg-[linear-gradient(125.07deg,#632ee3,#9f62f2_100%)] bg-clip-text text-transparent pb-1"
                     : ""
@@ -66,7 +66,7 @@ const Navbar = () => {
                   key={link.path}
                   to={link.path}
                   className={({ isActive }) =>
-                    `text-[#000000e6] hover: font-medium leading-[152%] ${
+                    `text-[#000000e6] font-medium leading-[152%] ${
                       isActive
                         ? "border-b-2 border-purple-600 bg-[linear-gradient(125.07deg,#632ee3,#9f62f2_100%)] bg-clip-text text-transparent pb-1"
                         : ""
@@ -89,7 +89,7 @@ const Navbar = () => {
             >
               <div className="bg-white p-1 rounded-full ">
                 {" "}
-                <Github color="#8E24AA" />{" "}
+                <Github color="#8E24AA" size={20} />{" "}
               </div>
               <span className="text-white font-semibold leading-5">
                 Contribute
