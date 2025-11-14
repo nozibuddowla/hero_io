@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 1,
+    "description": "Instagram is a free photo and video sharing app that connects you with friends, family, and interests around the world. Share your moments through photos and videos, explore content from creators you love, and discover new accounts to follow. The app offers powerful editing tools, filters, and creative features like Stories, Reels, and IGTV to express yourself.\n\nConnect with a global community through comments, likes, and direct messages. Follow your favorite celebrities, brands, and influencers to stay updated with their latest posts. The Explore page helps you discover trending content tailored to your interests, from fashion and food to travel and fitness.\n\nCreate engaging short-form videos with Reels, featuring music, effects, and creative tools. Share ephemeral content through Stories that disappear after 24 hours, or save your best moments to Highlights on your profile. Instagram Shopping allows you to discover and purchase products directly from the app.\n\nWith privacy controls, you can manage who sees your content and interacts with you. Whether you're sharing everyday moments or building a brand, Instagram provides the tools to connect authentically with your audience and express your creativity.",
+    "size": 245,
+    "reviews": 15420000,
+    "ratingAvg": 4.5,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1542000 },
+      { "name": "2 star", "count": 1234000 },
+      { "name": "3 star", "count": 2313000 },
+      { "name": "4 star", "count": 3847000 },
+      { "name": "5 star", "count": 6484000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 2,
+    "description": "Spotify is the world's most popular music streaming service, offering access to millions of songs, podcasts, and audiobooks. Discover new music through personalized playlists like Discover Weekly and Release Radar, curated based on your listening habits. Stream your favorite tracks, albums, and playlists on demand, or let Spotify's radio feature introduce you to similar artists.\n\nCreate and share playlists with friends, collaborate on group playlists, and follow your favorite artists to stay updated on new releases. The app's powerful search feature helps you find any song, artist, or podcast instantly. Spotify's algorithm learns your preferences over time, delivering increasingly accurate recommendations.\n\nEnjoy podcasts from top creators covering topics from true crime to comedy, news, and education. Download your favorite content for offline listening when you're on the go without internet access. The premium subscription removes ads, enables unlimited skips, and provides high-quality audio streaming.\n\nConnect Spotify to your smart devices, including speakers, TVs, and wearables for seamless listening across all your devices. With social features, you can see what friends are listening to and share your current favorites. Whether you're working out, commuting, or relaxing, Spotify has the perfect soundtrack for every moment.",
+    "size": 156,
+    "reviews": 8920000,
+    "ratingAvg": 4.6,
+    "downloads": 1500000000,
+    "ratings": [
+      { "name": "1 star", "count": 534000 },
+      { "name": "2 star", "count": 714000 },
+      { "name": "3 star", "count": 1248000 },
+      { "name": "4 star", "count": 2492000 },
+      { "name": "5 star", "count": 3932000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 3,
+    "description": "WhatsApp is a fast, simple, and secure messaging app used by billions of people worldwide to stay connected with friends and family. Send text messages, voice messages, photos, videos, and documents for free over your internet connection. Make voice and video calls to anyone in the world without long-distance charges, even if they're in a different country.\n\nCreate group chats with up to 256 people to stay in touch with your community, family, or work team. Share your location in real-time, send contacts, and react to messages with emojis. The Status feature lets you share photos, videos, and text updates that disappear after 24 hours, similar to stories on other platforms.\n\nWhatsApp uses end-to-end encryption by default, ensuring that only you and the person you're communicating with can read your messages. No third parties, not even WhatsApp, can access your private conversations. The app also offers disappearing messages that automatically delete after a set time period for added privacy.\n\nBusiness accounts allow companies to connect with customers, provide support, and share updates. WhatsApp Web enables you to sync your conversations across devices, letting you message from your computer. With regular updates and new features, WhatsApp continues to be the leading choice for secure, reliable communication.",
+    "size": 187,
+    "reviews": 12340000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1234000 },
+      { "name": "2 star", "count": 1481000 },
+      { "name": "3 star", "count": 2345000 },
+      { "name": "4 star", "count": 3086000 },
+      { "name": "5 star", "count": 4194000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 4,
+    "description": "TikTok is the leading destination for short-form mobile videos, offering endless entertainment and creative expression. Watch millions of videos from creators around the world, covering everything from comedy and dance to education and life hacks. The powerful For You page algorithm curates a personalized feed based on your interests and viewing habits.\n\nCreate your own content using an extensive library of sounds, effects, and editing tools. Add music from popular artists, use AR filters, and experiment with special effects to make your videos stand out. Join trending challenges, participate in viral dances, and engage with a global community of creators.\n\nDuet and Stitch features allow you to collaborate with other creators by combining your videos with theirs, fostering creativity and connection. Go live to interact with your followers in real-time, receive virtual gifts, and build a loyal fan base. The comment section enables engaging discussions and community building.\n\nDiscover educational content through hashtags like #LearnOnTikTok, where experts share bite-sized lessons on various topics. Follow your favorite creators to stay updated with their latest posts, and use the search feature to explore specific interests. With its addictive algorithm and creative tools, TikTok has revolutionized how we consume and create short-form video content.",
+    "size": 203,
+    "reviews": 9876000,
+    "ratingAvg": 4.3,
+    "downloads": 3500000000,
+    "ratings": [
+      { "name": "1 star", "count": 1481000 },
+      { "name": "2 star", "count": 1185000 },
+      { "name": "3 star", "count": 1975000 },
+      { "name": "4 star", "count": 2469000 },
+      { "name": "5 star", "count": 2766000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 5,
+    "description": "Netflix is the world's leading streaming entertainment service, offering an extensive library of TV shows, movies, documentaries, and original content. Watch award-winning Netflix Originals, exclusive series, and blockbuster films across all genres. New content is added regularly, ensuring there's always something fresh to discover.\n\nCreate up to five profiles for different family members, each with personalized recommendations based on viewing history. The Kids profile provides a safe viewing environment with age-appropriate content. Download your favorite shows and movies to watch offline on planes, trains, or anywhere without internet access.\n\nNetflix's sophisticated algorithm suggests content tailored to your preferences, helping you discover hidden gems you'll love. Continue watching from where you left off across all your devices, whether you're on your phone, tablet, smart TV, or computer. The platform supports multiple languages with subtitles and dubbing options.\n\nExperience high-quality streaming with support for 4K Ultra HD and HDR on compatible devices. Skip intros, see related content, and easily navigate through episodes with an intuitive interface. Netflix continues to invest billions in original programming, producing critically acclaimed series and films that define modern entertainment.",
+    "size": 178,
+    "reviews": 7650000,
+    "ratingAvg": 4.5,
+    "downloads": 1200000000,
+    "ratings": [
+      { "name": "1 star", "count": 459000 },
+      { "name": "2 star", "count": 536000 },
+      { "name": "3 star", "count": 1148000 },
+      { "name": "4 star", "count": 2295000 },
+      { "name": "5 star", "count": 3212000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png",
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "id": 6,
+    "description": "Uber revolutionizes urban transportation by connecting riders with reliable drivers at the tap of a button. Request a ride from your current location to any destination, track your driver's arrival in real-time, and enjoy cashless payment through the app. Choose from various ride options including UberX, Comfort, XL, and luxury vehicles based on your needs and budget.\n\nSee upfront pricing before you confirm your ride, so you know exactly what you'll pay with no surprises. Share your trip details with friends and family for added safety, and rate your driver after each trip to maintain quality standards. Schedule rides in advance for important appointments or early morning flights.\n\nUber Eats integration allows you to order food delivery from thousands of restaurants directly through the app. Uber Pool (where available) offers shared rides at lower prices by matching you with riders going in the same direction. Track your spending with detailed trip history and automatic receipts sent to your email.\n\nThe app provides estimated arrival times, multiple payment options including digital wallets, and 24/7 customer support. With presence in hundreds of cities worldwide, Uber ensures you can get around whether you're at home or traveling abroad. Safety features include emergency assistance, driver verification, and ride check technology.",
+    "size": 192,
+    "reviews": 5430000,
+    "ratingAvg": 4.2,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 651000 },
+      { "name": "2 star", "count": 543000 },
+      { "name": "3 star", "count": 977000 },
+      { "name": "4 star", "count": 1629000 },
+      { "name": "5 star", "count": 1630000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 7,
+    "description": "Gmail is Google's free email service that offers a powerful and intuitive way to manage your inbox. With 15GB of free storage, you can keep all your important emails, attachments, and documents in one place. The intelligent spam filtering system keeps your inbox clean by automatically detecting and blocking unwanted messages.\n\nOrganize your emails with labels, stars, and categories that automatically sort messages into Primary, Social, and Promotions tabs. The powerful search feature helps you find any email instantly using keywords, senders, or date ranges. Smart Compose suggests phrases as you type, speeding up email composition and saving time.\n\nIntegration with Google Calendar, Meet, and Drive makes it easy to schedule meetings, join video calls, and share files directly from your inbox. Undo send feature gives you a few seconds to recall messages if you spot a mistake. Confidential mode adds extra security by setting expiration dates and requiring passcodes for sensitive emails.\n\nAccess your Gmail across all devices with seamless synchronization. Offline mode allows you to read, respond, and search emails without an internet connection. Customize your inbox with themes, enable desktop notifications, and use keyboard shortcuts for efficient email management. With regular security updates and two-factor authentication, Gmail keeps your communications safe and private.",
+    "size": 134,
+    "reviews": 8920000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 714000 },
+      { "name": "2 star", "count": 803000 },
+      { "name": "3 star", "count": 1606000 },
+      { "name": "4 star", "count": 2676000 },
+      { "name": "5 star", "count": 3121000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 8,
+    "description": "Telegram is a cloud-based messaging app focused on speed and security, offering powerful features for personal and group communication. Send messages, photos, videos, and files of any type up to 2GB each. The app is incredibly fast, delivering messages quicker than competitors, and works seamlessly even on weak mobile connections.\n\nCreate groups with up to 200,000 members, perfect for large communities, classes, or organizations. Channels allow you to broadcast messages to unlimited audiences, making it ideal for news, updates, and announcements. Secret chats provide end-to-end encryption with self-destructing messages for maximum privacy.\n\nCustomize your experience with themes, chat backgrounds, and stickers created by artists worldwide. Telegram bots add functionality like polls, quizzes, games, and integrations with external services. The app is completely free with no ads, and the developers promise it will remain free forever.\n\nSync your messages across unlimited devices including phones, tablets, and computers. Edit sent messages, delete them for everyone, and schedule messages to send later. Advanced features include voice chats for groups, live streams, and built-in video editing tools. With a commitment to privacy and regular updates adding new features, Telegram continues to grow as a favorite among privacy-conscious users.",
+    "size": 145,
+    "reviews": 6780000,
+    "ratingAvg": 4.7,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 203000 },
+      { "name": "2 star", "count": 271000 },
+      { "name": "3 star", "count": 678000 },
+      { "name": "4 star", "count": 1627000 },
+      { "name": "5 star", "count": 4001000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Google_Maps_icon_%282020%29.svg",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 9,
+    "description": "Google Maps is the world's most comprehensive navigation and mapping service, helping billions of users find their way every day. Get real-time GPS navigation, traffic updates, and transit information for driving, walking, biking, or public transportation. The app provides turn-by-turn voice guidance, alternative routes to avoid traffic, and estimated arrival times.\n\nExplore your surroundings with detailed information about millions of places including restaurants, shops, hotels, and attractions. Read reviews from other users, view photos, check operating hours, and see how busy places are in real-time. Street View lets you virtually explore locations before visiting, providing a 360-degree view of streets worldwide.\n\nSave your favorite places, create custom maps, and share your location with friends and family. Offline maps allow you to navigate without an internet connection by downloading areas in advance. Discover new restaurants and experiences with personalized recommendations based on your preferences and past activity.\n\nGoogle Maps integrates with other services, letting you book reservations, order food delivery, or call businesses directly from the app. Live View uses augmented reality to overlay directions on your camera view, making navigation easier in unfamiliar areas. With constantly updated data from satellites, users, and local businesses, Google Maps ensures you always have the most accurate information to reach your destination.",
+    "size": 167,
+    "reviews": 11250000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1237000 },
+      { "name": "2 star", "count": 1012000 },
+      { "name": "3 star", "count": 2137000 },
+      { "name": "4 star", "count": 3037000 },
+      { "name": "5 star", "count": 3827000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+    "title": "Apple Music",
+    "companyName": "Apple Inc.",
+    "id": 10,
+    "description": "Apple Music is Apple's premium music streaming service offering over 100 million songs with no ads. Experience lossless audio quality and spatial audio with Dolby Atmos for an immersive listening experience. Access exclusive releases, live radio stations including Apple Music 1, and curated playlists by expert music editors.\n\nDiscover new music through personalized recommendations based on your taste. Follow your favorite artists to get notified about new releases and concerts. The For You section delivers custom playlists like New Music Mix and Favorites Mix every week, helping you explore genres and artists you'll love.\n\nLyrics integration lets you sing along to your favorite tracks with time-synced lyrics. Share what you're listening to with friends, see what they're playing, and collaborate on playlists together. Download songs for offline listening and enjoy your music without using data.\n\nApple Music integrates seamlessly with Siri, HomePod, CarPlay, and all Apple devices. Access exclusive video content including concerts, documentaries, and behind-the-scenes footage. With family sharing, up to six people can enjoy separate accounts under one subscription, making it perfect for households.",
+    "size": 198,
+    "reviews": 5210000,
+    "ratingAvg": 4.5,
+    "downloads": 600000000,
+    "ratings": [
+      { "name": "1 star", "count": 312000 },
+      { "name": "2 star", "count": 417000 },
+      { "name": "3 star", "count": 781000 },
+      { "name": "4 star", "count": 1563000 },
+      { "name": "5 star", "count": 2137000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 11,
+    "description": "Facebook is the world's largest social network, connecting billions of people worldwide. Share updates, photos, and videos with friends and family, react to posts with likes and emojis, and engage in meaningful conversations through comments. Join groups based on your interests, from hobbies and local communities to professional networks.\n\nDiscover news, entertainment, and trending topics through your personalized News Feed. Follow pages of your favorite brands, celebrities, and organizations to stay updated. Facebook Marketplace allows you to buy and sell items locally, making it easy to find great deals or sell unwanted items.\n\nStay connected through Messenger integration, enabling instant messaging, voice calls, and video chats. Share Stories that disappear after 24 hours, or post updates to your Timeline. Create and manage Events to organize gatherings, parties, and community activities.\n\nWatch videos on Facebook Watch, livestream to your followers, or join live broadcasts from creators worldwide. With privacy controls, you can manage who sees your content and control your online presence. Facebook's extensive platform offers tools for businesses, creators, and individuals to connect, share, and grow their communities.",
+    "size": 223,
+    "reviews": 13470000,
+    "ratingAvg": 4.1,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2021000 },
+      { "name": "2 star", "count": 1616000 },
+      { "name": "3 star", "count": 2694000 },
+      { "name": "4 star", "count": 3368000 },
+      { "name": "5 star", "count": 3771000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+    "title": "Calm",
+    "companyName": "Calm.com, Inc.",
+    "id": 12,
+    "description": "Meditation, sleep, and relaxation made simple through guided sessions and sounds.",
+    "size": 60.5,
+    "reviews": 1500000,
+    "ratingAvg": 4.8,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1120000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 13,
+    "description": "YouTube is the world's largest video sharing platform, hosting billions of videos across every imaginable category. Watch content from music videos and movie trailers to educational tutorials, gaming streams, and vlogs. Subscribe to channels you love to get notifications when they upload new content, and build a personalized feed of recommended videos.\n\nDiscover trending content, explore different topics through hashtags and categories, and use the powerful search function to find specific videos. YouTube's recommendation algorithm learns your preferences and suggests videos you'll enjoy. Create and share playlists to organize your favorite content or share with friends.\n\nYouTube Premium removes ads, enables background play, and allows offline downloads for uninterrupted viewing. YouTube Music provides a dedicated music streaming experience within the platform. Shorts offers bite-sized vertical videos similar to other short-form video apps, perfect for quick entertainment.\n\nEngage with creators through likes, comments, and shares. Join live streams to interact in real-time, and use Super Chat to support your favorite creators during live broadcasts. With content in countless languages and automatic captions available, YouTube serves as both entertainment hub and educational resource for billions of users worldwide.",
+    "size": 176,
+    "reviews": 18920000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1514000 },
+      { "name": "2 star", "count": 1703000 },
+      { "name": "3 star", "count": 3406000 },
+      { "name": "4 star", "count": 5676000 },
+      { "name": "5 star", "count": 6621000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg",
+    "title": "Google Chrome",
+    "companyName": "Google LLC",
+    "id": 14,
+    "description": "Google Chrome is the world's most popular web browser, known for its speed, simplicity, and security. Browse the web effortlessly with fast page loading, smooth scrolling, and efficient resource management. Sync your bookmarks, passwords, history, and settings across all your devices by signing in with your Google account.\n\nEnjoy built-in Google services including Google Translate for instant webpage translation, Google Search for quick information lookup, and voice search for hands-free browsing. The address bar doubles as a search bar, providing suggestions and autocomplete as you type. Tab management makes it easy to organize multiple pages and switch between them seamlessly.\n\nSecurity features include Safe Browsing that warns you about dangerous sites, automatic updates that keep you protected from the latest threats, and sandboxing technology that isolates each tab. Private browsing mode (Incognito) doesn't save your history, cookies, or site data. Password manager securely stores and autofills your login credentials.\n\nCustomize Chrome with thousands of extensions from the Chrome Web Store, adding functionality for productivity, entertainment, and more. Data Saver reduces mobile data usage by compressing pages, while Reader Mode provides a clean reading experience. With frequent updates and strong performance, Chrome remains the browser of choice for billions worldwide.",
+    "size": 167,
+    "reviews": 9870000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 790000 },
+      { "name": "2 star", "count": 888000 },
+      { "name": "3 star", "count": 1777000 },
+      { "name": "4 star", "count": 2959000 },
+      { "name": "5 star", "count": 3456000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Messenger_logo_2018.svg",
+    "title": "Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 15,
+    "description": "Messenger is Meta's dedicated messaging app that offers free texting, voice calls, and video calls over Wi-Fi or mobile data. Connect with Facebook friends or use just your phone number to message anyone. Send photos, videos, voice messages, GIFs, stickers, and your location instantly. Create group chats to coordinate with multiple people at once.\n\nMake high-quality video calls with up to 50 people through Rooms, perfect for virtual hangouts, family gatherings, or team meetings. Express yourself with thousands of stickers, custom emoji reactions, and fun AR effects during video calls. Chat Heads allow you to keep conversations accessible while using other apps.\n\nShare files, documents, and links easily. Play instant games with friends directly in your conversations. Use Messenger for business to connect with local shops, customer service, or order food and products. Payment features let you send and request money securely within the app.\n\nEnd-to-end encryption in Secret Conversations ensures your private messages stay secure. Disappearing messages automatically delete after a set time. Cross-app messaging with Instagram lets you chat with Instagram users from Messenger. With dark mode, customizable chat colors, and emoji shortcuts, Messenger provides a feature-rich communication experience.",
+    "size": 154,
+    "reviews": 7120000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 854000 },
+      { "name": "2 star", "count": 783000 },
+      { "name": "3 star", "count": 1424000 },
+      { "name": "4 star", "count": 2136000 },
+      { "name": "5 star", "count": 1923000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1fFYbVrW/51jqac-DO3-DL.png",
+    "title": "DailyQuote",
+    "companyName": "InspireMe",
+    "id": 16,
+    "description": "DailyQuote delivers inspiring messages, motivational quotes, and affirmations every morning. Customize your categories and share your favorite quotes to start each day with positivity.",
+    "size": 25,
+    "reviews": 700,
+    "ratingAvg": 4.4,
+    "downloads": 54000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 305 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4gmfHdQd/unnamed.png",
+    "title": "WeatherNow",
+    "companyName": "SkyView Labs",
+    "id": 17,
+    "description": "WeatherNow provides accurate, real-time weather updates, forecasts, and alerts. With radar maps, widgets, and notifications, it keeps you informed wherever you go.",
+    "size": 30,
+    "reviews": 950,
+    "ratingAvg": 4.5,
+    "downloads": 88000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 505 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/wNCWrvVC/images.jpg",
+    "title": "GameVault",
+    "companyName": "PixelPlay",
+    "id": 18,
+    "description": "GameVault brings all your favorite mobile and PC games in one hub. Discover trending titles, read reviews, and track your gameplay stats with ease.",
+    "size": 130,
+    "reviews": 2200,
+    "ratingAvg": 4.8,
+    "downloads": 310000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 1675 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/fYdnJmx2/3476015.png",
+    "title": "MealPrep",
+    "companyName": "NutriLife",
+    "id": 19,
+    "description": "MealPrep helps you plan healthy meals, track calories, and shop smarter. It offers weekly meal plans, grocery lists, and nutrition insights tailored to your diet goals.",
+    "size": 65,
+    "reviews": 1050,
+    "ratingAvg": 4.3,
+    "downloads": 97000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 445 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/wrxYcPxC/41u-AT3-RNQw-L.png",
+    "title": "SleepTrack",
+    "companyName": "WellnessWorks",
+    "id": 20,
+    "description": "SleepTrack monitors your sleep cycles, snoring patterns, and overall rest quality using smart sensors. It provides personalized tips and analytics to help you fall asleep faster and wake up feeling refreshed. With soothing sounds and bedtime reminders, SleepTrack turns better sleep into a daily habit.",
+    "size": 50,
+    "reviews": 950,
+    "ratingAvg": 4.6,
+    "downloads": 82000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 340 },
+      { "name": "5 star", "count": 455 }
+    ]
+  }
+]
