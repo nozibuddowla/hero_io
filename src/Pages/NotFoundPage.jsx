@@ -1,15 +1,22 @@
-import appError from "../assets/App-Error.png";
+import React from "react";
 import { NavLink } from "react-router";
+import error_404 from "../assets/error-404.png";
 
-const AppErrorPage = () => {
+const NotFoundPage = () => {
   return (
-    <div className="hero bg-base-200 min-h-screen">
-      <div className="max-w-2xl w-full flex flex-col justify-center items-center space-y-8 py-10">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
-          Oops! App Details Not Found
-        </h2>
-        <img src={appError} alt="app details error" />
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-indigo-50 flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-8">
+      <div className="max-w-2xl w-full flex flex-col justify-center items-center space-y-8">
+        <img src={error_404} alt="error-404" />
 
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
+          Oops! Page Not Found
+        </h2>
+        <p className="text-base sm:text-lg text-gray-600 max-w-md mx-auto">
+          The page you're looking for doesn't exist or has been moved. Let's get
+          you back on track!
+        </p>
+
+        {/* Illustration */}
         <div className="flex justify-center py-8">
           <svg
             className="w-64 h-64 sm:w-80 sm:h-80"
@@ -47,7 +54,6 @@ const AppErrorPage = () => {
             </text>
           </svg>
         </div>
-
         <NavLink to="/apps" className="btn btn-primary">
           Go to Apps page
         </NavLink>
@@ -56,4 +62,4 @@ const AppErrorPage = () => {
   );
 };
 
-export default AppErrorPage;
+export default NotFoundPage;
