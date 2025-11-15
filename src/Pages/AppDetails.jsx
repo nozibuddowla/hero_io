@@ -51,7 +51,7 @@ const AppDetails = () => {
 
     const formatter = new Intl.NumberFormat("en-US", {
       notation: "compact",
-      maximumFractionDigits: 1,
+      maximumFractionDigits: 2,
     });
 
     return formatter.format(number);
@@ -87,7 +87,7 @@ const AppDetails = () => {
               <img src={downloadIcon} alt="review icon" />
               <p className="text-[#001931] leading-6">Downloads</p>
               <p className="text-[#001931] text-4xl font-extrabold leading-10">
-                {formatCompactNumber(downloads)}
+                {formatCompactNumber(downloads)}+
               </p>
             </div>
             <div className="space-y-2">
@@ -118,14 +118,12 @@ const AppDetails = () => {
           <BarChart
             data={reverseRatings}
             layout="vertical"
-            margin={{ left: 20 }}
           >
             <XAxis dataKey="count" type="number" />
             <YAxis
               dataKey="name"
               type="category"
               width={60}
-              radius={[0, 4, 4, 0]}
             />
             <Tooltip />
             <Bar dataKey="count" fill="#ff8811" />

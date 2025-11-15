@@ -202,17 +202,17 @@
     "title": "Calm",
     "companyName": "Calm.com, Inc.",
     "id": 12,
-    "description": "Meditation, sleep, and relaxation made simple through guided sessions and sounds.",
+    "description": "Calm is the #1 app for sleep, meditation and relaxation. Manage stress, balance moods, sleep better and refocus your attention. Guided meditation, Sleep Stories, soundscapes, breathwork and stretching exercises fill our extensive library. Practice self-healing and discover a happier you through Calm.",
     "size": 60.5,
-    "reviews": 1500000,
-    "ratingAvg": 4.8,
-    "downloads": 100000000,
+    "reviews": 603000,
+    "ratingAvg": 3.9,
+    "downloads": 50000000,
     "ratings": [
-      { "name": "1 star", "count": 30000 },
-      { "name": "2 star", "count": 20000 },
-      { "name": "3 star", "count": 50000 },
-      { "name": "4 star", "count": 300000 },
-      { "name": "5 star", "count": 1120000 }
+      { "name": "1 star", "count": 98615 },
+      { "name": "2 star", "count": 15134 },
+      { "name": "3 star", "count": 62001 },
+      { "name": "4 star", "count": 62001 },
+      { "name": "5 star", "count": 342714 }
     ]
   },
   {
@@ -270,21 +270,21 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/Ryx9Lk8RW2P6TNMNLWlBRiuAc0d39dn54q4jMkPHTjszSkTDa6P7LkdR1t_bANQxeeA=w240-h480-rw",
-    "title": "Daily Quote",
-    "companyName": "Polaron Games",
+    "image": "https://i.postimg.cc/Xqzy3g0L/unnamed.webp",
+    "title": "Dropbox",
+    "companyName": "Dropbox, Inc.",
     "id": 16,
-    "description": "Daily Quote is a lightweight, straightforward app that provides inspirational quotes at the touch of a button. The perfect companion for a quick dose of motivation or reflection.",
-    "size": 25,
-    "reviews": 700,
-    "ratingAvg": 4.4,
-    "downloads": 54000,
+    "description": "Dropbox keeps your files organized, safe, and accessible at all times! You can effortlessly view and share files with anybody, no matter how big or small, by just sending them a link. Keep all of your important files in one place and easily backup your phone or computer. Additionally, you may also use Dropbox to scan your files with ease and organize them in a safe storage.",
+    "size": 200,
+    "reviews": 2330000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 25 },
-      { "name": "3 star", "count": 90 },
-      { "name": "4 star", "count": 250 },
-      { "name": "5 star", "count": 305 }
+      { "name": "1 star", "count": 100486 },
+      { "name": "2 star", "count": 34705 },
+      { "name": "3 star", "count": 72132 },
+      { "name": "4 star", "count": 159802 },
+      { "name": "5 star", "count": 1800132 }
     ]
   },
   {
@@ -306,22 +306,21 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/2vTTTWH3uQFbXyXp3UozGrdqtWPdPnnw5c8jaTEb7b1pqUZTX-gh2URDTu-9VF7oopj3=w240-h480-rw",
-    "title": "GameVault",
-    "companyName": "seymoaguesad",
+    "image": "https://i.postimg.cc/sf9f5mQB/ds.png",
+    "title": "Zoom Workplace",
+    "companyName": "zoom.com",
     "id": 18,
-    "description": "Welcome to GameVault, the ultimate platform where your gaming skills reward you! Dive into a world of endless fun and excitement, where every challenge you conquer brings you one step closer to amazing rewards. Choose from a wide variety of games across puzzles, adventures, strategy, and action. Earn points as you play, redeem rewards, and join competitions while enjoying a safe and secure gaming environment.",
-
-    "size": 130,
-    "reviews": 2200,
-    "ratingAvg": 4.8,
-    "downloads": 310000,
+    "description": "Reimagine teamwork with Zoom Workplace, an AI-first, open collaboration platform that combines team chat, meetings, phone*, whiteboard, calendar, mail, docs, and more. Use Zoom Workplace for Android with any free or paid Zoom license.",
+    "size": 220,
+    "reviews": 4510000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 15 },
-      { "name": "2 star", "count": 20 },
-      { "name": "3 star", "count": 90 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 1675 }
+      { "name": "1 star", "count": 376919 },
+      { "name": "2 star", "count": 139746 },
+      { "name": "3 star", "count": 222016 },
+      { "name": "4 star", "count": 359081 },
+      { "name": "5 star", "count": 3102133 }
     ]
   },
   {
