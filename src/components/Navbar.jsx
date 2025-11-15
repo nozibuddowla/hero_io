@@ -33,8 +33,7 @@ const Navbar = () => {
                 }`
               }
             >
-              {" "}
-              {link.name}{" "}
+              {link.name}
             </NavLink>
           ))}
         </div>

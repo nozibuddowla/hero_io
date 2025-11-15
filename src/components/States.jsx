@@ -2,7 +2,7 @@ import React from "react";
 
 const States = () => {
   return (
-    <div className=" bg-[linear-gradient(125deg,#632ee3_0%,#9f62f2_100%)] text-white p-10 md:p-14 lg:p-20">
+    <div className="bg-[linear-gradient(125deg,#632ee3_0%,#9f62f2_100%)] text-white p-10 md:p-14 lg:p-20">
       <div className="max-w-[1440px] mx-auto flex flex-col">
         <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold leading-10 xl:leading-14 mb-5 lg:mb-7 xl:mb-10 text-center">
           Trusted by Millions, Built for You
