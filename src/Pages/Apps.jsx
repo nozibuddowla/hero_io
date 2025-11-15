@@ -4,6 +4,7 @@ import useApps from "../hooks/useApps";
 import AppCard from "../components/AppCard";
 import AppNotFoundPage from "./AppNotFoundPage";
 import Loader from "../components/Loader";
+import SkeletonLoader from "../components/SkeletonLoader";
 
 const Apps = () => {
   const { apps, loading, error } = useApps();
@@ -11,17 +12,13 @@ const Apps = () => {
 
   const searchTerm = searchQuery.trim().toLocaleLowerCase();
 
-  if (loading) {
-    return <Loader />;
-  }
+  const searchApps = searchTerm
+    ? apps.filter((app) => app.title.toLocaleLowerCase().includes(searchTerm))
+    : apps;
 
   if (error) {
     return <AppNotFoundPage />;
   }
-
-  const searchApps = searchTerm
-    ? apps.filter((app) => app.title.toLocaleLowerCase().includes(searchTerm))
-    : apps;
 
   return (
     <div>
@@ -63,7 +60,9 @@ const Apps = () => {
           </label>
         </div>
 
-        {searchApps.length === 0 ? (
+        {loading ? (
+          <SkeletonLoader count={36} />
+        ) : searchApps.length === 0 ? (
           <AppNotFoundPage />
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5 lg:gap-6 place-items-center sm:place-items-stretch">
