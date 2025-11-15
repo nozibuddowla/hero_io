@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router";
 import useApps from "../hooks/useApps";
 import Loader from "../components/Loader";
@@ -15,10 +15,13 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import { toast } from "react-toastify";
+import { Check } from "lucide-react";
 
 const AppDetails = () => {
   const { id } = useParams();
   const { apps, loading, error } = useApps();
+  const [isInstalled, setIsInstalled] = useState(false);
 
   if (loading) {
     return <Loader />;
@@ -57,6 +60,26 @@ const AppDetails = () => {
     return formatter.format(number);
   };
 
+  const handleInstall = () => {
+    setIsInstalled(true);
+    toast.success(
+      <div className="flex items-center gap-3">
+        <div>
+          <h4 className="font-semibold text-gray-900">
+            Successfully Installed!
+          </h4>
+          <p className="text-sm text-gray-600">{title} is ready to use</p>
+        </div>
+      </div>,
+      {
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+      }
+    );
+  };
+
   const reverseRatings = [...ratings].reverse();
 
   return (
@@ -78,7 +101,7 @@ const AppDetails = () => {
               Developed by{" "}
               <span className="bg-[linear-gradient(125.07deg,#632ee3,#9f62f2_100%)] bg-clip-text text-transparent">
                 {" "}
-                {companyName}{" "}
+                {companyName}
               </span>
             </p>
           </div>
@@ -106,8 +129,16 @@ const AppDetails = () => {
               </p>
             </div>
           </div>
-          <button className="text-x text-white font-semibold leading-6 px-5 py-3.5 rounded-sm bg-[#00D390]">
-            Install Now ({size} MB){" "}
+          <button
+            onClick={handleInstall}
+            disabled={isInstalled}
+            className={`text-xl text-white font-semibold leading-6 px-5 py-3.5 rounded-sm bg-[#00D390] ${
+              isInstalled
+                ? "bg-gray-400 cursor-not-allowed opacity-60"
+                : "bg-[#00D390] hover:bg-[#00BD7E] text-white"
+            } `}
+          >
+            {isInstalled ? `Installed` : `Install Now (${size} MB)`}
           </button>
         </div>
       </div>
