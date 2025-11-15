@@ -87,7 +87,8 @@ const AppDetails = () => {
               <img src={downloadIcon} alt="review icon" />
               <p className="text-[#001931] leading-6">Downloads</p>
               <p className="text-[#001931] text-4xl font-extrabold leading-10">
-                {formatCompactNumber(downloads)}+
+                {formatCompactNumber(downloads)}
+                {downloads > 1000 ? "+" : ""}
               </p>
             </div>
             <div className="space-y-2">
@@ -115,16 +116,9 @@ const AppDetails = () => {
           Ratings
         </h3>
         <ResponsiveContainer width="100%" height={300}>
-          <BarChart
-            data={reverseRatings}
-            layout="vertical"
-          >
+          <BarChart data={reverseRatings} layout="vertical">
             <XAxis dataKey="count" type="number" />
-            <YAxis
-              dataKey="name"
-              type="category"
-              width={60}
-            />
+            <YAxis dataKey="name" type="category" width={60} />
             <Tooltip />
             <Bar dataKey="count" fill="#ff8811" />
           </BarChart>

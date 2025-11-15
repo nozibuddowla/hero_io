@@ -1,10 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import Title from "../components/Title";
 import useApps from "../hooks/useApps";
 import AppCard from "../components/AppCard";
+import AppNotFoundPage from "./AppNotFoundPage";
+import Loader from "../components/Loader";
 
 const Apps = () => {
-  const { apps } = useApps();
+  const { apps, loading, error } = useApps();
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const searchTerm = searchQuery.trim().toLocaleLowerCase();
+
+  if (loading) {
+    return <Loader />;
+  }
+
+  if (error) {
+    return <AppNotFoundPage />;
+  }
+
+  const searchApps = searchTerm
+    ? apps.filter((app) => app.title.toLocaleLowerCase().includes(searchTerm))
+    : apps;
+
   return (
     <div>
       <Title
@@ -16,7 +34,7 @@ const Apps = () => {
         <div className="flex justify-between items-center">
           <h1 className="text-3xl font-semibold">
             <span className="text-[#001931] text-2xl font-semibold leading-8">
-              ({apps.length}) products found
+              ({searchApps.length}) products found
             </span>
           </h1>
           <label className="input">
@@ -36,15 +54,24 @@ const Apps = () => {
                 <path d="m21 21-4.3-4.3"></path>
               </g>
             </svg>
-            <input type="search" placeholder="search Apps" />
+            <input
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              type="search"
+              placeholder="search Apps"
+            />
           </label>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5 lg:gap-6 place-items-center sm:place-items-stretch">
-          {apps.map((app) => (
-            <AppCard key={app.id} app={app} />
-          ))}
-        </div>
+        {searchApps.length === 0 ? (
+          <AppNotFoundPage />
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5 lg:gap-6 place-items-center sm:place-items-stretch">
+            {searchApps.map((app) => (
+              <AppCard key={app.id} app={app} />
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

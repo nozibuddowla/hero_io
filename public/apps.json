@@ -358,5 +358,293 @@
       { "name": "4 star", "count": 340 },
       { "name": "5 star", "count": 455 }
     ]
+  },
+  {
+    "id": 21,
+    "image": "/demo-app_1.webp",
+    "title": "ZenithOS",
+    "companyName": "Innovatech",
+    "description": "A revolutionary operating system designed for productivity and creativity, featuring a seamless user interface and powerful multitasking capabilities.",
+    "size": 120,
+    "reviews": 15000,
+    "ratingAvg": 4.8,
+    "downloads": 25.5,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 8850 }
+    ]
+  },
+  {
+    "id": 22,
+    "image": "/demo-app_2.webp",
+    "title": "PhotoGlow AI",
+    "companyName": "PixelPerfect",
+    "description": "An advanced photo editor powered by AI. Enhance your photos with one-tap adjustments, professional filters, and creative effects.",
+    "size": 85,
+    "reviews": 22000,
+    "ratingAvg": 4.7,
+    "downloads": 40.2,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 440 },
+      { "name": "3 star", "count": 1760 },
+      { "name": "4 star", "count": 6600 },
+      { "name": "5 star", "count": 12980 }
+    ]
+  },
+  {
+    "id": 23,
+    "image": "/demo-app_3.webp",
+    "title": "FinanceFlow",
+    "companyName": "Capital Corp",
+    "description": "Manage your personal and business finances effortlessly. Track spending, create budgets, and view insightful reports to take control of your money.",
+    "size": 60,
+    "reviews": 30000,
+    "ratingAvg": 4.9,
+    "downloads": 50.1,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 7500 },
+      { "name": "5 star", "count": 21150 }
+    ]
+  },
+  {
+    "id": 24,
+    "image": "/demo-app_4.webp",
+    "title": "FitFusion",
+    "companyName": "ActiveLife",
+    "description": "Your ultimate fitness companion. Get personalized workout plans, track your progress, and access a library of exercises and nutrition guides.",
+    "size": 95,
+    "reviews": 12000,
+    "ratingAvg": 4.6,
+    "downloads": 15.8,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 6300 }
+    ]
+  },
+  {
+    "id": 25,
+    "image": "/demo-app_5.webp",
+    "title": "MindLoom",
+    "companyName": "Serene Minds",
+    "description": "A mindfulness and meditation app to help you reduce stress, improve focus, and sleep better. Guided sessions for all levels.",
+    "size": 50,
+    "reviews": 25000,
+    "ratingAvg": 4.8,
+    "downloads": 22.0,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 7250 },
+      { "name": "5 star", "count": 15000 }
+    ]
+  },
+  {
+    "id": 26,
+    "image": "/demo-app_6.webp",
+    "title": "CodeCanvas",
+    "companyName": "DevTools Inc.",
+    "description": "An intuitive code editor for web developers on the go. Supports HTML, CSS, JavaScript, and more, with syntax highlighting and auto-completion.",
+    "size": 70,
+    "reviews": 9000,
+    "ratingAvg": 4.7,
+    "downloads": 8.5,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 720 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 5310 }
+    ]
+  },
+  {
+    "id": 27,
+    "image": "https://placehold.co/400x225/ea580c/ffffff?text=SoundWave",
+    "title": "SoundWave",
+    "companyName": "AudioPhonic",
+    "description": "Stream unlimited music, discover new artists, and create playlists for any mood. High-fidelity audio and offline listening available.",
+    "size": 110,
+    "reviews": 45000,
+    "ratingAvg": 4.5,
+    "downloads": 60.0,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1350 },
+      { "name": "3 star", "count": 4500 },
+      { "name": "4 star", "count": 13500 },
+      { "name": "5 star", "count": 24750 }
+    ]
+  },
+  {
+    "id": 28,
+    "image": "https://placehold.co/400x225/0891b2/ffffff?text=GlobeTrek",
+    "title": "GlobeTrek",
+    "companyName": "Wanderlust Co.",
+    "description": "Plan your next adventure with ease. Find flights, book hotels, and discover hidden gems with our comprehensive travel guide.",
+    "size": 130,
+    "reviews": 19000,
+    "ratingAvg": 4.8,
+    "downloads": 18.3,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 380 },
+      { "name": "3 star", "count": 1520 },
+      { "name": "4 star", "count": 5700 },
+      { "name": "5 star", "count": 11210 }
+    ]
+  },
+  {
+    "id": 29,
+    "image": "https://placehold.co/400x225/7e22ce/ffffff?text=Canva",
+    "title": "Canva: Design, Photo & Video",
+    "companyName": "Canva",
+    "description": "Canva is your free photo editor, video editor, and graphic design tool all in one. Create stunning social media posts, videos, cards, flyers, photo collages & more.",
+    "size": 60,
+    "reviews": 6000000,
+    "ratingAvg": 4.8,
+    "downloads": 100.9,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 4740000 }
+    ]
+  },
+  {
+    "id": 30,
+    "image": "https://placehold.co/400x225/7e22ce/ffffff?text=Strava",
+    "title": "Strava: Run, Ride, Swim",
+    "companyName": "Strava Inc.",
+    "description": "Track your fitness activity with Strava. Record your run, map a cycling route & analyse your training with all the stats – for free!",
+    "size": 200,
+    "reviews": 1200000,
+    "ratingAvg": 4.7,
+    "downloads": 75.6,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 885000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/RF136BxK/images.png",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 31,
+    "description": "ChatGPT is an advanced AI chatbot developed by OpenAI, providing intelligent conversational experiences. Users can ask questions, generate content, and get advice across numerous topics, making it a versatile tool for both personal and professional use.",
+    "size": 150,
+    "reviews": 31800000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 2124965 },
+      { "name": "2 star", "count": 794083 },
+      { "name": "3 star", "count": 1594329 },
+      { "name": "4 star", "count": 2748976 },
+      { "name": "5 star", "count": 23471237 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/bY2kPK5D/capcut-logo-on-transparent-white-background-free-vector.jpg",
+    "title": "CapCut",
+    "companyName": "ByteDance",
+    "id": 32,
+    "description": "CapCut is an all-in-one video editing app. It offers powerful tools for video trimming, transitions, effects, and music overlays, enabling users to create professional-level content directly from their mobile devices.",
+    "size": 220,
+    "reviews": 80,
+    "ratingAvg": 4.6,
+    "downloads": 23,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 640000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/ZKGfZ8Hw/images-1.png",
+    "title": "Threads",
+    "companyName": "Meta Platforms",
+    "id": 33,
+    "description": "Threads is a text-focused social app for sharing updates and engaging in discussions. Integrated with Instagram, it provides a seamless experience for microblogging and connecting with communities.",
+    "size": 150,
+    "reviews": 70,
+    "ratingAvg": 4.4,
+    "downloads": 23,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 600000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/T3953GGm/dddd.webp",
+    "title": "LinkedIn",
+    "companyName": "Microsoft",
+    "id": 34,
+    "description": "LinkedIn is a professional networking platform that helps users connect with colleagues, search for jobs, share professional content, and build their career profiles online.",
+    "size": 200,
+    "reviews": 80,
+    "ratingAvg": 4.6,
+    "downloads": 22,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 630000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/XNFGm9Z6/d.avif",
+    "title": "X",
+    "companyName": "X Corp.",
+    "id": 35,
+    "description": "X is a microblogging and social networking service where users post and interact with messages known as tweets, providing real-time news, trends, and public discussions.",
+    "size": 180,
+    "reviews": 22800000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2124736 },
+      { "name": "2 star", "count": 589961 },
+      { "name": "3 star", "count": 908890 },
+      { "name": "4 star", "count": 1935431 },
+      { "name": "5 star", "count": 16488709 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/Njt1pppQ/Adobe-Photoshop-CC-icon-svg.png",
+    "title": "Adobe Photoshop",
+    "companyName": "Adobe Inc.",
+    "id": 36,
+    "description": "Adobe Photoshop is a powerful image editing and graphic design software used by professionals worldwide to create, retouch, and enhance digital images with advanced tools and features.",
+    "size": 500,
+    "reviews": 60,
+    "ratingAvg": 4.8,
+    "downloads": 15,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 495000 }
+    ]
   }
 ]
