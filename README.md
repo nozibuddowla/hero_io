@@ -2,6 +2,8 @@
 
 **Description:** A responsive app-store UI built with React + Vite. Browse top apps, view app details with rating charts, install/uninstall apps (localStorage), and manage your installed apps.
 
+**Live Preview:** [https://hero-io-no.netlify.app/](https://hero-io-no.netlify.app/)
+
 **Technologies**
 
 - React, React Router
