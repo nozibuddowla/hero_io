@@ -1,4 +1,4 @@
-# Hero IO (or your chosen app name)
+# Hero IO
 
 **Description:** A responsive app-store UI built with React + Vite. Browse top apps, view app details with rating charts, install/uninstall apps (localStorage), and manage your installed apps.
 

@@ -2,7 +2,7 @@ import appError from "../assets/App-Error.png";
 
 const AppNotFoundPage = () => {
   return (
-    <div className="hero bg-base-200 min-h-screen">
+    <div className="hero bg-base-200 min-h-screen py-8">
       <div className="max-w-2xl w-full text-center space-y-8">
         <div className="flex justify-center">
           <svg
