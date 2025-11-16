@@ -3,7 +3,6 @@ import Title from "../components/Title";
 import useApps from "../hooks/useApps";
 import AppCard from "../components/AppCard";
 import AppNotFoundPage from "./AppNotFoundPage";
-import Loader from "../components/Loader";
 import SkeletonLoader from "../components/SkeletonLoader";
 
 const Apps = () => {

@@ -1,7 +1,8 @@
+import React from "react";
 import appError from "../assets/App-Error.png";
 import { NavLink } from "react-router";
 
-const AppErrorPage = () => {
+const NotInstalledApps = () => {
   return (
     <div className="hero bg-base-200 min-h-screen">
       <div className="max-w-2xl w-full flex flex-col justify-center items-center space-y-8 py-10">
@@ -9,11 +10,10 @@ const AppErrorPage = () => {
           <img src={appError} alt="error-404" />
 
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#001931]">
-            OOPS!! APP NOT FOUND
+            OOPS!! No installed apps found.
           </h2>
           <p className="text-xl sm:text-lg text-[#627382] text-center">
-            The App you are requesting is not found on our system. please try
-            another apps
+            The App you are requesting is not installed on our system. please install apps!
           </p>
           <NavLink
             to="/apps"
@@ -27,4 +27,4 @@ const AppErrorPage = () => {
   );
 };
 
-export default AppErrorPage;
+export default NotInstalledApps;

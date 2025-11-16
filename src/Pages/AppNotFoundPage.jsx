@@ -4,18 +4,7 @@ const AppNotFoundPage = () => {
   return (
     <div className="hero bg-base-200 min-h-screen">
       <div className="max-w-2xl w-full text-center space-y-8">
-        <div className="relative flex justify-center items-center py-8">
-          <img src={appError} alt="error-404" />
-        </div>
-
-        {/* Error Message */}
-        <div className="space-y-4">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
-            Oops! Apps Not Found
-          </h2>
-        </div>
-
-        <div className="flex justify-center py-8">
+        <div className="flex justify-center">
           <svg
             className="w-64 h-64 sm:w-80 sm:h-80"
             viewBox="0 0 500 500"
@@ -52,6 +41,10 @@ const AppNotFoundPage = () => {
             </text>
           </svg>
         </div>
+        {/* Error Message */}
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
+          Oops, Apps Not Found!
+        </h2>
       </div>
     </div>
   );

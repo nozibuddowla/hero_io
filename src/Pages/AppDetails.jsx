@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import useApps from "../hooks/useApps";
 import Loader from "../components/Loader";
@@ -20,7 +20,29 @@ import { toast } from "react-toastify";
 const AppDetails = () => {
   const { id } = useParams();
   const { apps, loading, error } = useApps();
+
   const [isInstalled, setIsInstalled] = useState(false);
+
+  const app = Array.isArray(apps)
+    ? apps.find((item) => item.id === Number(id))
+    : undefined;
+
+  useEffect(() => {
+    try {
+      const installJson = localStorage.getItem("installList");
+      if (!installJson || !app) {
+        setIsInstalled(false);
+        return;
+      }
+      const list = JSON.parse(installJson);
+      const alreadyInstalled =
+        Array.isArray(list) && list.some((i) => i.id === app.id);
+      setIsInstalled(Boolean(alreadyInstalled));
+    } catch (err) {
+      console.error(`Failed to read installList from localStorage: ${err}`);
+      setIsInstalled(false);
+    }
+  }, [app]);
 
   if (loading) {
     return <Loader />;
@@ -29,8 +51,6 @@ const AppDetails = () => {
   if (error) {
     return <AppErrorPage />;
   }
-
-  const app = apps.find((item) => item.id === Number(id));
 
   if (!app) {
     return <AppErrorPage />;
@@ -60,23 +80,55 @@ const AppDetails = () => {
   };
 
   const handleInstall = () => {
-    setIsInstalled(true);
-    toast.success(
-      <div className="flex items-center gap-3">
-        <div>
-          <h4 className="font-semibold text-gray-900">
-            Successfully Installed!
-          </h4>
-          <p className="text-sm text-gray-600">{title} is ready to use</p>
-        </div>
-      </div>,
-      {
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
+    try {
+      const existingInstallList =
+        JSON.parse(localStorage.getItem("installList")) || [];
+
+      const alreadyInstalled = Array.isArray(existingInstallList)
+        ? existingInstallList.some((installedApp) => installedApp.id === app.id)
+        : false;
+
+      if (!alreadyInstalled) {
+        const updateInstallList = Array.isArray(existingInstallList)
+          ? [...existingInstallList, app]
+          : [app];
+        localStorage.setItem("installList", JSON.stringify(updateInstallList));
+        setIsInstalled(true);
+        toast.success(
+          <div className="flex items-center gap-3">
+            <div>
+              <h4 className="font-semibold text-gray-900">
+                Successfully Installed!
+              </h4>
+              <p className="text-sm text-gray-600">{title} is ready to use</p>
+            </div>
+          </div>,
+          {
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+          }
+        );
       }
-    );
+    } catch (err) {
+      console.error(`Failed to update installList: ${err}`);
+      toast.error(
+        <div className="flex items-center gap-3">
+          <div>
+            <h4 className="font-semibold text-gray-900">
+              Unable to install at this time!
+            </h4>
+          </div>
+        </div>,
+        {
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+        }
+      );
+    }
   };
 
   const reverseRatings = [...ratings].reverse();
@@ -165,15 +217,12 @@ const AppDetails = () => {
             disabled={isInstalled}
             className={`w-full sm:w-auto text-base sm:text-lg md:text-xl font-semibold leading-6 px-6 sm:px-8 md:px-10 py-3 sm:py-3.5 md:py-4 rounded-lg transition-all duration-200 flex items-center justify-center gap-2 shadow-md hover:shadow-lg ${
               isInstalled
-                ? "bg-gray-400 text-white cursor-not-allowed opacity-60"
+                ? "bg-gray-400 cursor-not-allowed opacity-60"
                 : "bg-[#00D390] hover:bg-[#00BD7E] text-white active:scale-95"
             }`}
           >
             {isInstalled ? (
-              <>
-                <Check className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={2.5} />
-                <span>Installed</span>
-              </>
+              <span>Installed</span>
             ) : (
               <span>Install Now ({size} MB)</span>
             )}
@@ -186,28 +235,24 @@ const AppDetails = () => {
         <h3 className="text-[#001931] text-xl sm:text-2xl md:text-3xl font-semibold leading-8 mb-4 sm:mb-6">
           Ratings
         </h3>
-        {/* Wrapper div with responsive height */}
-        <div className="w-full h-64 sm:h-80 md:h-96">
-          <ResponsiveContainer width="100%" height="100%">
-            <BarChart data={reverseRatings} layout="vertical">
-              <XAxis dataKey="count" type="number" tick={{ fontSize: 12 }} />
-              <YAxis
-                dataKey="name"
-                type="category"
-                width={60}
-                tick={{ fontSize: 12 }}
-              />
-              <Tooltip
-                contentStyle={{
-                  fontSize: "14px",
-                  borderRadius: "8px",
-                  border: "1px solid #e5e7eb",
-                }}
-              />
-              <Bar dataKey="count" fill="#ff8811" radius={[0, 4, 4, 0]} />
-            </BarChart>
-          </ResponsiveContainer>
-        </div>
+
+        {reverseRatings.length > 0 && (
+          <div className="h-72">
+            <ResponsiveContainer width="100%" height={256}>
+              <BarChart data={reverseRatings} layout="vertical">
+                <XAxis dataKey="count" type="number" />
+                <YAxis dataKey="name" type="category" width={60} />
+                <Tooltip
+                  contentStyle={{
+                    borderRadius: "8px",
+                    border: "1px solid #e5e7eb",
+                  }}
+                />
+                <Bar dataKey="count" fill="#ff8811" radius={[0, 4, 4, 0]} />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+        )}
       </div>
 
       {/* Description Section */}
