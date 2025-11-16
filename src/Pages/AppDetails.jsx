@@ -131,7 +131,7 @@ const AppDetails = () => {
     }
   };
 
-  const reverseRatings = [...ratings].reverse();
+  const reverseRatings = Array.isArray(ratings) ? [...ratings].reverse() : [];
 
   return (
     <div className="max-w-[1440px] mx-auto w-full px-4 sm:px-6 md:px-8 lg:px-12 my-10 sm:my-16 md:my-20">

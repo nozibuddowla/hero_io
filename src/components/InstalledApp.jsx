@@ -1,5 +1,6 @@
 import { Download } from "lucide-react";
 import React from "react";
+import { Link } from "react-router";
 import { Rating } from "react-simple-star-rating";
 
 const InstalledApp = ({ app, onUninstall }) => {
@@ -23,7 +24,10 @@ const InstalledApp = ({ app, onUninstall }) => {
   };
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-12 gap-4 sm:gap-6 items-center group relative w-full bg-white rounded-xl sm:rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 ease-in-out overflow-hidden border border-gray-100 hover:border-purple-200 hover:-translate-y-1 p-4 sm:p-5 md:p-6">
+    <Link
+      to={`/app/${id}`}
+      className="grid grid-cols-1 md:grid-cols-12 gap-4 sm:gap-6 items-center group relative w-full bg-white rounded-xl sm:rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 ease-in-out overflow-hidden border border-gray-100 hover:border-purple-200 hover:-translate-y-1 p-4 sm:p-5 md:p-6"
+    >
       <figure className="col-span-1 md:col-span-2 relative w-full h-24 sm:h-28 md:h-32 overflow-hidden rounded-lg">
         <img
           src={image}
@@ -66,6 +70,7 @@ const InstalledApp = ({ app, onUninstall }) => {
           </span>
         </div>
       </div>
+
       <div className="col-span-1 md:col-span-2 lg:col-span-1 flex justify-end md:justify-center">
         <button
           onClick={handleUninstallClick}
@@ -75,7 +80,7 @@ const InstalledApp = ({ app, onUninstall }) => {
         </button>
       </div>
       <div className="absolute inset-0 rounded-2xl ring-2 ring-purple-500 ring-opacity-0 group-hover:ring-opacity-100 transition-all duration-300 pointer-events-none" />
-    </div>
+    </Link>
   );
 };
 

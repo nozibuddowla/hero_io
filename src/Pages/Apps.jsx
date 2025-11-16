@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Title from "../components/Title";
 import useApps from "../hooks/useApps";
 import AppCard from "../components/AppCard";
@@ -8,6 +8,22 @@ import SkeletonLoader from "../components/SkeletonLoader";
 const Apps = () => {
   const { apps, loading, error } = useApps();
   const [searchQuery, setSearchQuery] = useState("");
+
+  const [isSearching, setIsSearching] = useState(false);
+
+  useEffect(() => {
+    if (!searchQuery) {
+      setIsSearching(false);
+      return;
+    }
+    setIsSearching(true);
+    const t = setTimeout(() => {
+      setIsSearching(false);
+    }, 300);
+    return () => {
+      clearTimeout(t);
+    };
+  }, [searchQuery]);
 
   const searchTerm = searchQuery.trim().toLocaleLowerCase();
 
@@ -61,6 +77,8 @@ const Apps = () => {
 
         {loading ? (
           <SkeletonLoader count={36} />
+        ) : isSearching ? (
+          <SkeletonLoader count={12} />
         ) : searchApps.length === 0 ? (
           <AppNotFoundPage />
         ) : (

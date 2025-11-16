@@ -10,7 +10,7 @@ const Header = () => {
         <span>We Build</span>
         <span>
           <strong className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent">
-            Productive 
+            Productive
           </strong>
           Apps
         </span>
@@ -34,7 +34,7 @@ const Header = () => {
         </a>
         <a
           className="flex items-center gap-2.5 px-6 py-3 border-2 border-[#d2d2d2] rounded-sm "
-          href="https://play.google.com/store/"
+          href="https://apps.apple.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
